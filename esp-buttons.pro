@@ -1,4 +1,4 @@
-update=Fri 02 Sep 2016 05:10:59 PM EEST
+update=Fri 02 Sep 2016 06:56:16 PM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,16 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [general]
 version=1
 [eeschema]
@@ -68,3 +58,13 @@ LibName26=atmel
 LibName27=contrib
 LibName28=/home/alinmicu/devel/kicad/libraries/kicad-ESP8266/ESP8266
 LibName29=ir
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
