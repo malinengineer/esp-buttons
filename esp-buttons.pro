@@ -1,4 +1,4 @@
-update=Thu 01 Sep 2016 05:29:38 PM EEST
+update=Fri 02 Sep 2016 10:27:19 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=libraries/kicad-ESP8266
@@ -67,3 +65,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
