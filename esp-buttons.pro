@@ -1,4 +1,4 @@
-update=Mon 05 Sep 2016 06:24:58 PM EEST
+update=Sun 25 Sep 2016 09:11:04 AM EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=libraries/kicad-ESP8266
@@ -58,13 +68,4 @@ LibName26=atmel
 LibName27=contrib
 LibName28=/home/alinmicu/devel/kicad/libraries/kicad-ESP8266/ESP8266
 LibName29=ir
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName30=ftdi
