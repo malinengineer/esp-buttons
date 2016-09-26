@@ -5,7 +5,7 @@
     (no_connects 103)
     (area 60.884999 71.044999 179.145001 152.475001)
     (thickness 1.6)
-    (drawings 4)
+    (drawings 5)
     (tracks 0)
     (zones 0)
     (modules 45)
@@ -481,13 +481,13 @@
     )
   )
 
-  (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 57E98EE4) (tstamp 57E97F7B)
+  (module Capacitors_SMD:C_1206_HandSoldering (layer F.Cu) (tedit 57E9A7A2) (tstamp 57E97F7B)
     (at 84.074 124.714 270)
     (descr "Capacitor SMD 1206, hand soldering")
     (tags "capacitor 1206")
     (path /57E7B263)
     (attr smd)
-    (fp_text reference C8 (at 0 -2.3 270) (layer F.SilkS)
+    (fp_text reference C8 (at -4.572 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 100nF (at 0 2.3 270) (layer F.Fab) hide
@@ -636,7 +636,7 @@
   )
 
   (module Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol (layer F.Cu) (tedit 57E9A665) (tstamp 57E97F96)
-    (at 104.394 145.669)
+    (at 104.394 144.399)
     (descr "4-way 3.5mm pitch terminal block, Phoenix PT series")
     (path /57C6FAF7)
     (fp_text reference P1 (at 13.97 -2.413) (layer F.SilkS)
@@ -673,7 +673,7 @@
   )
 
   (module Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol (layer F.Cu) (tedit 57E9A65C) (tstamp 57E97FA4)
-    (at 146.558 145.923)
+    (at 146.304 144.907)
     (descr "4-way 3.5mm pitch terminal block, Phoenix PT series")
     (path /57C9B684)
     (fp_text reference P3 (at 13.97 -2.921) (layer F.SilkS)
@@ -884,7 +884,7 @@
     )
   )
 
-  (module Connect:USB_B (layer F.Cu) (tedit 57E98327) (tstamp 57E97FD2)
+  (module Connect:USB_B (layer F.Cu) (tedit 57E9ABA3) (tstamp 57E97FD2)
     (at 76.2 129.54 180)
     (descr "USB B connector")
     (tags "USB_B USB_DEV")
@@ -892,7 +892,7 @@
     (fp_text reference P9 (at -1.524 10.033 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value USB (at -0.254 -7.493 360) (layer F.Fab)
+    (fp_text value USB (at -0.254 -7.493 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 15.25 8.9) (end -2.3 8.9) (layer F.CrtYd) (width 0.05))
@@ -925,7 +925,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 57E98E5D) (tstamp 57E97FD9)
-    (at 103.886 137.668)
+    (at 103.886 136.398)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /57C9A0FE)
@@ -959,7 +959,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 57E98E6E) (tstamp 57E97FE0)
-    (at 136.906 139.446)
+    (at 136.144 138.43)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /57C9B58B)
@@ -993,7 +993,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-23 (layer F.Cu) (tedit 57E98E76) (tstamp 57E97FE7)
-    (at 156.464 138.684)
+    (at 156.21 137.668)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /57C9B6A9)
@@ -1095,7 +1095,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E98EF7) (tstamp 57E97FFB)
-    (at 114.554 139.954)
+    (at 114.554 138.684)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /57C6BC7C)
@@ -1124,7 +1124,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E98EF0) (tstamp 57E98001)
-    (at 129.286 138.938)
+    (at 128.524 137.922)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /57C9B560)
@@ -1153,7 +1153,7 @@
   )
 
   (module Resistors_SMD:R_1206_HandSoldering (layer F.Cu) (tedit 57E98EEA) (tstamp 57E98007)
-    (at 149.352 138.176)
+    (at 149.098 137.16)
     (descr "Resistor SMD 1206, hand soldering")
     (tags "resistor 1206")
     (path /57C9B67E)
@@ -1667,7 +1667,7 @@
   )
 
   (module Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol (layer F.Cu) (tedit 57E9A661) (tstamp 57E987E1)
-    (at 126.873 146.177)
+    (at 126.111 145.161)
     (descr "4-way 3.5mm pitch terminal block, Phoenix PT series")
     (path /57C9B566)
     (fp_text reference P2 (at 14.097 -2.413) (layer F.SilkS)
@@ -1717,6 +1717,9 @@
     (pad 1 thru_hole circle (at 0 0) (size 4 4) (drill 2) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_text "Internet connected\npolling system" (at 81.026 140.97) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_line (start 179.07 152.4) (end 60.96 152.4) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 179.07 71.12) (end 179.07 152.4) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 60.96 71.12) (end 179.07 71.12) (angle 90) (layer Edge.Cuts) (width 0.15))
