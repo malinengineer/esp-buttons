@@ -417,7 +417,7 @@ F 3 "" H 10000 3300 50  0000 C CNN
 $EndComp
 Text Label 7850 2250 0    60   ~ 0
 PROG
-Text Label 7850 2050 0    60   ~ 0
+Text Label 5600 2350 0    60   ~ 0
 BUTTON5
 $Comp
 L C_Small C4
@@ -445,7 +445,7 @@ Text Label 5600 2150 0    60   ~ 0
 BUTTON1
 Text Label 5600 2250 0    60   ~ 0
 BUTTON2
-Text Label 5600 2350 0    60   ~ 0
+Text Label 7850 2050 0    60   ~ 0
 BUTTON3
 Text Label 5600 2450 0    60   ~ 0
 BUTTON4
