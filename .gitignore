@@ -19,3 +19,6 @@ _saved_*
 # Exported BOM files
 *.xml
 *.csv
+
+# Output folder
+output/
